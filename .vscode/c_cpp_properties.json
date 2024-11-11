@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/opt/ros/melodic/include/",
+                "/home/eiesin/ros_projects/agilex_includes/ugv_sdk/ugv_sdk/include/",
+                "/home/eiesin/ros_projects/agilex_includes/ugv_sdk/wrp_io/include/**",
+                "${workspaceFolder}/ros_ws/src/car_scout/include/car_scout",
+                "${workspaceFolder}/ros_ws/devel/include/"
+
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
